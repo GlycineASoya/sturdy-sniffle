@@ -7,3 +7,4 @@ USER 11111
 WORKDIR /application
 
 ENTRYPOINT [ "python3", "main.py" ]
+asdasdasd
