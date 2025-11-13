@@ -1,9 +1,9 @@
 FROM bitnami/python:3.11.3 as base
 
-COPY application /application
+COPY app /app
 
 USER 11111
 
-WORKDIR /application
+WORKDIR /app
 
 ENTRYPOINT [ "python3", "main.py" ]
