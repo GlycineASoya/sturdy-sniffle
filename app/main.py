@@ -21,4 +21,5 @@ def main():
         sleep(timeout)
         start = count(start)
 
-main()
+if __name__ == "__main__":
+    main()
